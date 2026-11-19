@@ -31,8 +31,11 @@ COMMON=(
     --enable-decoder=dca
     --enable-decoder=truehd
     --enable-decoder=mlp
+    --enable-decoder=ac3
+    --enable-decoder=eac3
     --enable-parser=dca
     --enable-parser=mlp
+    --enable-parser=ac3
 )
 
 EXCLUDED_HEADERS=(
